@@ -18,7 +18,7 @@ public class ProdutoController {
     @Autowired
     private ProdutoService service;
 
-    @GetMapping(value="/busca-todos")
+    @GetMapping(value="/busca-produtos")
     public List<Produto> buscaProduto(){
         return service.findAll();
     }
