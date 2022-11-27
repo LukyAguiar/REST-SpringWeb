@@ -12,7 +12,12 @@
 - <b>REST e RESTful</b> 
   - <b>REST:</b> Representa um apanhado de princípios de arquitetura
   - <b>RESTful:</b> Representa a condição de um sistema específico em aplicar os conceitos de REST
-- 
+- <b>Endpoint</b>
+  - Ponto de Extremidade
+  - Endpoint vs API
+- <b>Exception Handlers</b>
+  - O <b>@ControllerAdvice</b> é uma anotação, para lidar com as exceções globalmente.
+  - O <b>@ExceptionHandler</b> é uma anotação usada para tratar as exceções específicas e enviar as respostas personalizadas ao cliente.
 
 <h2 style="text-align:center;" >Spring Security</h2>
 
