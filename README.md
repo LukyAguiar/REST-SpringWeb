@@ -1,5 +1,7 @@
 <h1 style="text-align:center;">REST-SpringWeb</h1>
 
+<h2 style="text-align:center;">Rest com Spring MVC</h2>
+
 - <b>Estilo arquitetural </b>
   - Um <b>estilo arquitetural</b> é um conceito organizacional, central de um sistema.
 - <b>Estilo arquitetural REST</b>
@@ -11,12 +13,6 @@
   - <b>REST:</b> Representa um apanhado de princípios de arquitetura
   - <b>RESTful:</b> Representa a condição de um sistema específico em aplicar os conceitos de REST
 - 
-
----
-
-
-
-<h2 style="text-align:center;">Rest com Spring MVC</h2>
 
 <h2 style="text-align:center;" >Spring Security</h2>
 
