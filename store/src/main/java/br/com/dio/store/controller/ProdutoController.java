@@ -20,15 +20,15 @@ public class ProdutoController {
         return service.findAll();
     }
 
-    @GetMapping(value = "/produtoId")
-    public List<Produto> buscaProdutoId(@PathVariable Long id){
-        return (List<Produto>) service.findById(id);
+    @GetMapping(value = "/produtoId/{id}")
+    public ResponseEntity<Produto> buscaProdutoId(@PathVariable Long id){
+        Produto produto = service.findById(id);
+      return ResponseEntity.ok().body(produto);
     }
 
     @PostMapping(value= "/save")
-    public ResponseEntity<Produto> salvaProduto(Produto produto){
-        produto = service.save(produto);
-        return  ResponseEntity.ok().body(produto);
+    public ResponseEntity<Produto> salvaProduto(@RequestBody Produto produto){
+        return  ResponseEntity.ok().body(service.save(produto));
     }
 
 
