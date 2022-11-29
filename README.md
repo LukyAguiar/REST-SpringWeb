@@ -75,4 +75,24 @@
 
 <h2 style="text-align:center;" >Actuator, Métricas e Health Check</h2>
 
+- <b>O que é o Spring Boot Actuator</b>
+  - <b>O que é o Actuator</b> 
+    - <b>Actuator</b> traz recursos prontos para produção para nossa aplicação.
+- <b>Health Check</b>
+  - Verificar Disco
+  - Checar Serviços acessíveis 
+  - Banco de Dados
+- <b>HealthIndicator</b>
+  - Métricas Personalizadas 
+  - Maneiras diferentes de inspecionar o status
+- <b>Spring Boot Admin</b>
+  - Spring Boot Admin é um projeto da Codecentric para Gerenciar e monitorar aplicações SpringBoot
+
 <h2 style="text-align:center;">Spring Boot Test</h2>
+
+- Testes Automatizados 
+  - O teste automatizado é um processo onde  ferramentas executam testes pré-programados em um aplicativo de software.
+- Testes Unitários 
+  - Os testes unitários procuram verificar a exatidão do código, em usa menor fração
+- Framework - JUnit
+  - JUnit é um framework que facilita o desenvolvimento e execução de testes unitários em código Java
