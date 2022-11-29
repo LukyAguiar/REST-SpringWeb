@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ProdutoTest {
 
-    private ProdutoService service;
 
     @Test
     public void testeFalse(){

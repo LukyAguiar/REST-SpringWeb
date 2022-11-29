@@ -90,9 +90,29 @@
 
 <h2 style="text-align:center;">Spring Boot Test</h2>
 
-- Testes Automatizados 
+- **Testes Automatizados** 
+
   - O teste automatizado é um processo onde  ferramentas executam testes pré-programados em um aplicativo de software.
-- Testes Unitários 
+
+- **Testes Unitários** 
+
   - Os testes unitários procuram verificar a exatidão do código, em usa menor fração
-- Framework - JUnit
-  - JUnit é um framework que facilita o desenvolvimento e execução de testes unitários em código Java
+
+- **Framework - JUnit**
+
+  - **JUnit** é um **framework** que facilita o desenvolvimento e execução de testes unitários em código Java
+
+- **@SpringBootTest**
+
+  - A anotação @SpringBootTest deve ser utilizada nas classes de testes para que o SPring inicialize o servidor e disponibilize os Beans da aplicação.
+
+- **MockMvc**
+
+  - MockMvcRequestBuilders
+  - MockMvcResultMatchers
+
+  
+
+<h2>Curso Finalizado - Certificado</h2>
+
+<img src="110335EF.png">
